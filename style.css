@@ -498,6 +498,6 @@ font-size: 13px;
     display: none;
 }
 .treatment-section {
-    width: 100%;
+    width: 100% !important;
 }
 }
