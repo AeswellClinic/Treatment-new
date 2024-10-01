@@ -497,4 +497,7 @@ font-size: 13px;
 .treatment-description-end br{
     display: none;
 }
+.treatment-section {
+    width: 100%;
+}
 }
