@@ -294,6 +294,11 @@ flex-wrap: wrap;
     .treatment-description-end p br{
         display: none;
     }
+    .product-card{
+        min-width: 250px;
+        height: 250px;
+    }
+
 }
 /* 
 @media (max-width: 1024px) {
