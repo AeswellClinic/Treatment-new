@@ -457,6 +457,10 @@ flex-wrap: wrap;
     .treatment-description-end ul li {
         font-size: 15px;
     }
+    .product-card h3{
+        margin-bottom: 10px;
+        text-align: center;
+    }
 
     .treatment-description-end ul li::before {
         left: 0;
@@ -465,6 +469,9 @@ flex-wrap: wrap;
     .treatment-section-container {
         gap: 0;
         padding: 20px;
+    }
+    .product-card p{
+        text-align: center;
     }
 
     .treatment-section-end {
@@ -493,7 +500,7 @@ font-size: 13px;
     margin: 10px auto; 
     flex-direction: column;
     justify-content: center;
-    height: 265px;
+    height: 165px;
 }
 
 .treatment-additional-info h3{
@@ -510,7 +517,9 @@ font-size: 13px;
     margin-top: 0;
 }
 .product-card img{
-    width: 80%;
+    width: 55%;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 .product-card p br{
     display: none;
