@@ -14,7 +14,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 365px;
+    height: 435px;
     width: 100%;
 }
 
@@ -29,7 +29,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 365px;
+    height: 435px;
     width: 100%;
 }
 
@@ -44,11 +44,11 @@
 }
 
 .treatment-section:nth-child(5) {
-    background-image: url('img/Group.png');
+    background-image: url('img/Group 432.png');
 }
 
 .treatment-section:nth-child(6) {
-    background-image: url('img/Group 543 (2).png');
+    background-image: url('img/Group 434 (1).png');
 }
 
 .treatment-image {
@@ -63,7 +63,7 @@
 
 .treatment-description {
     flex: 1;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.20);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -82,7 +82,7 @@
 .treatment-description-end {
     height: 100%;
     flex: 1;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.20);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 20px;
@@ -135,8 +135,8 @@
 
 .treatment-description p{
     color: #333;
-    text-align: left;
-    font-size: 15px;
+    text-align: center;
+    font-size: 17px;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 85%;
@@ -148,7 +148,7 @@
 .treatment-description-end p {
     color: #333;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 85%;
@@ -173,6 +173,7 @@
     padding-left: 25px;
     font-size: 15px;
     margin-bottom: 5px;
+    font-weight: 500;
 }
 
 .treatment-description ul li::before {
@@ -186,6 +187,14 @@
     background-color: #000000;
     border-radius: 50%;
 }
+.center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
 
 /* .treatment-section:last-child .treatment-description {
     width: 100%;
@@ -278,7 +287,13 @@ flex-wrap: wrap;
     width: 100%;
 }
 
+.center-image {
+    display: none;
+}
 @media (max-width: 1024px) {
+    .center-image {
+        display: block;
+    }
     .treatment-section{
         width: 95%;
     }
@@ -381,11 +396,14 @@ flex-wrap: wrap;
         flex-direction: column;
         max-width: 100%;
         margin-bottom: 20px;
-        height: 328px;
+        height: 480px;
         max-height: 100vh;
         position: relative;
         box-sizing: border-box;
         overflow-y: auto;
+    }
+    .treatment-section{
+        padding: 5px;
     }
 
     .treatment-description {
@@ -409,7 +427,7 @@ flex-wrap: wrap;
 
     .treatment-description p,
     .treatment-description-end p {
-        font-size: 13px;
+        font-size: 14px;
         width: 100%;
         text-align: center;
     }
@@ -427,8 +445,9 @@ flex-wrap: wrap;
         width: auto;
         max-width: none;
         margin-top: 0;
-        height: 94%;
+        height: 65%;
         justify-content: center;
+        padding: 15px;
     }
 
     .treatment-description ul {
@@ -475,8 +494,14 @@ font-size: 13px;
     margin: 10px auto; 
     flex-direction: column;
     justify-content: center;
-    height: 155px;
+    height: 265px;
+}
 
+.treatment-additional-info h3{
+    margin-bottom: 10px;
+}
+.product-card{
+    padding: 22px;
 }
 .treatment-additional-info{
     margin-left: 0;
@@ -499,5 +524,29 @@ font-size: 13px;
 }
 .treatment-section {
     width: 100% !important;
+}
+.treatment-description p br{
+    display: none;
+}
+.center-image {
+    height: 45px;
+}
+.treatment-section {
+    background-image: url('img/Group 592 (3).png');
+}
+
+.treatment-section:nth-child(4) {
+    background-image: url('img/Group 592.png');
+}
+
+.treatment-section:nth-child(5) {
+    background-image: url('img/Group 592 (1).png');
+}
+
+.treatment-section:nth-child(6) {
+    background-image: url('img/Group 592 (2).png');
+}
+.treatment-description-end{
+    padding: 10px;
 }
 }
