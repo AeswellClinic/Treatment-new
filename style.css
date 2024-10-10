@@ -529,8 +529,7 @@ font-size: 13px;
 }
 .product-card p{
     margin-bottom: 10px;
-    width: 89%;
-    margin: 0 auto;
+   
 }
 
 .treatment-additional-info h3{
@@ -552,9 +551,9 @@ font-size: 13px;
     margin-bottom: 25px;
 
 }
-.product-card p br{
+/* .product-card p br{
     display: none;
-}
+} */
 .treatment-section {
     margin: 8px auto;
 }
